@@ -1,0 +1,130 @@
+{
+  "miniprogramRoot": "client/dist/",
+  "cloudfunctionRoot": "cloud/functions/",
+  "projectname": "rubbish",
+  "description": "垃圾分类",
+  "appid": "wx5655e027db6230d0",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": false,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/answer/answer-result/index",
+          "pathName": "pages/answer/answer-result/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-answer/answer/index",
+          "pathName": "pkg-answer/answer/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-mine/mine/index",
+          "pathName": "pkg-mine/mine/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-mine/activity-rules/index",
+          "pathName": "pkg-mine/activity-rules/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-mine/rank/index",
+          "pathName": "pkg-mine/rank/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-answer/answer-list/index",
+          "pathName": "pkg-answer/answer-list/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-answer/answer-question/index",
+          "pathName": "pkg-answer/answer-question/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-answer/answer-result/index",
+          "pathName": "pkg-answer/answer-result/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-answer/answer-record/index",
+          "pathName": "pkg-answer/answer-record/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-answer/answer-statistics/index",
+          "pathName": "pkg-answer/answer-statistics/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-mine/poster/index",
+          "pathName": "pkg-mine/poster/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pkg-ai/vop/index",
+          "pathName": "pkg-ai/vop/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

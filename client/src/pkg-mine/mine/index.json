@@ -1,0 +1,29 @@
+{
+    "list": [
+        {
+            "title": "联系我",
+            "icon": "service",
+            "type": "contact"
+        },
+        {
+            "title": "活动规则",
+            "icon": "game",
+            "type": ""
+        },
+        {
+            "title": "挑战排名",
+            "icon": "rank",
+            "type": ""
+        },
+        {
+            "title": "答题统计",
+            "icon": "edit",
+            "type": ""
+        },
+        {
+            "title": "推荐",
+            "icon": "share",
+            "type": "share"
+        }
+    ]
+}

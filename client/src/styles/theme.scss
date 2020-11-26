@@ -1,0 +1,46 @@
+Page {
+    --theme: #3cc51f;
+    --black: #333333;
+    --smGrey: #999999;
+    --ghostWhite: #f1f1f1;
+    --lineColor: #eee;
+    --gray: #aaaaaa;
+
+    background-color: var(--ghostWhite);
+    font-size: 28rpx;
+    color: var(--black);
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+$color-theme: var(--theme);
+$color-grey: var(--grey);
+$color-smGrey: var(--smGrey);
+
+/***********文本***********/
+.text-theme,
+.line-theme {
+    color: var(--theme);
+}
+.text-smGrey,
+.line-smGrey {
+    color: var(--smGrey);
+}
+
+/***********背景主题***********/
+.bg-theme {
+    background-color: var(--theme);
+}
+.bg-smGrey {
+    background-color: var(--smGrey);
+}
+
+/***********布局***********/
+.radius-sm {
+    border-radius: 12rpx;
+}
+.border-1 {
+    border: solid 1rpx #eee;
+}
+.border-bottom-1 {
+    border-bottom: solid 1rpx #eee;
+}

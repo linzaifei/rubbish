@@ -1,0 +1,23 @@
+.divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  &_first {
+    width: 80px;
+    height: 2px;
+    background: linear-gradient(to right, #f6f7f8, #d8d8d8);
+  }
+  &_second {
+    width: 80px;
+    height: 2px;
+    background: linear-gradient(to left, #f6f7f8, #d8d8d8);
+  }
+  &_text {
+    font-size: 24px;
+    color: #cccccc;
+    margin: 0px 10px;
+    background-color: transparent;
+  }
+}

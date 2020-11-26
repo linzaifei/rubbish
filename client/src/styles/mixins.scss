@@ -1,0 +1,10 @@
+.switch {
+    transform-origin: center center;
+    transform: scale(1.8);
+}
+
+Switch::after,
+Switch::before {
+    top: 13% !important;
+    font-size: 21rpx !important;
+}

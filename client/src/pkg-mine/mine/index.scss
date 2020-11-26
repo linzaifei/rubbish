@@ -1,0 +1,31 @@
+Page {
+    background-color: #39b54a;
+}
+.container {
+    background-color: #fff;
+    height: 100vh;
+    min-height: 100%;
+    &-top {
+        width: 100%;
+        background: #39b54a;
+        position: relative;
+        &-header {
+            width: 150rpx;
+            height: 150rpx;
+            border-radius: 50%;
+        }
+    }
+}
+
+.gif-wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    mix-blend-mode: screen;
+    height: 100rpx;
+}
+.padding-100 {
+    padding-bottom: 120rpx;
+}

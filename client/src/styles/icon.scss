@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "iconfont"; /* project id 2158532 */
+    src: url("//at.alicdn.com/t/font_2158532_4gv7bxrwzbu.eot");
+    src: url("//at.alicdn.com/t/font_2158532_4gv7bxrwzbu.eot?#iefix") format("embedded-opentype"),
+        url("//at.alicdn.com/t/font_2158532_4gv7bxrwzbu.woff2") format("woff2"),
+        url("//at.alicdn.com/t/font_2158532_4gv7bxrwzbu.woff") format("woff"),
+        url("//at.alicdn.com/t/font_2158532_4gv7bxrwzbu.ttf") format("truetype"),
+        url("//at.alicdn.com/t/font_2158532_4gv7bxrwzbu.svg#iconfont") format("svg");
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: inherit;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    margin-right: 10rpx;
+    width: 1.6em;
+    text-align: center;
+}
+
+.ic_camera:before {
+    content: "\e75b";
+}
+.ic_classes:before {
+    content: "\e6aa";
+}
+.ic_dati:before {
+    content: "\e61f";
+}
+.ic_cuoti:before {
+    content: "\e604";
+}
+
+//干垃圾
+.ic_lj8fill:before {
+    content: "\e627";
+}
+.ic_lj8:before {
+    content: "\e64c";
+}
+
+//可回收垃圾
+.ic_lj1fill:before {
+    content: "\e628";
+}
+.ic_lj1:before {
+    content: "\e98f";
+}
+//有害垃圾
+.ic_lj12fill:before {
+    content: "\e629";
+}
+//有害垃圾
+.ic_lj2:before {
+    content: "\e601";
+}
+//湿垃圾
+.ic_lj4fill:before {
+    content: "\e62a";
+}
+.ic_lj4:before {
+    content: "\e990";
+}
+.ic_lj16:before {
+    content: "\e600";
+}
+.ic_down:before {
+    content: "\e60f";
+}
+.ic_vop:before {
+    content: "\e620";
+}

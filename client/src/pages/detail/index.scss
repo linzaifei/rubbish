@@ -1,0 +1,29 @@
+.closeAnimation {
+    max-height: 300rpx;
+    overflow: hidden;
+    transition: max-height 0.5s linear;
+}
+.openAnimation {
+    max-height: 800px !important;
+}
+
+.openRotateAnimation {
+    rotate: 0deg;
+    transition: rotate 0.5s linear;
+}
+.closeRotateAnimation {
+    rotate: 180deg;
+}
+
+.container-tip {
+    position: relative;
+    &-bottom {
+        position: absolute;
+        bottom: 0rpx;
+        left: 0;
+        right: 0;
+    }
+}
+.itemvals {
+    border-bottom: solid 1rpx #eee;
+}

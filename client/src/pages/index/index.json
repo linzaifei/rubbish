@@ -1,0 +1,73 @@
+{
+    "tools": [
+        {
+            "name": "拍照识别",
+            "icon": "ic_camera",
+            "type": ""
+        },
+        {
+            "name": "小课堂",
+            "icon": "ic_classes",
+            "type": ""
+        },
+        {
+            "name": "分类答题",
+            "icon": "ic_dati",
+            "type": ""
+        },
+        {
+            "name": "错题集合",
+            "icon": "ic_cuoti",
+            "type": ""
+        }
+    ],
+    "guide": [
+        {
+            "name": "其他垃圾",
+            "icon": "ic_lj8",
+            "en": "RESIDOUAL",
+            "color": "#909090",
+            "type": 8
+        },
+        {
+            "name": "厨余垃圾",
+            "icon": "ic_lj4",
+            "en": "HOUSEHOULD",
+            "color": "#5B9060",
+            "type": 4
+        },
+        {
+            "name": "可回收垃圾",
+            "icon": "ic_lj1",
+            "en": "RECYCLABLE",
+            "color": "#3060A8",
+            "type": 1
+        },
+        {
+            "name": "有害垃圾",
+            "icon": "ic_lj2",
+            "en": "HAZARDOUS",
+            "color": "#B43953",
+            "type": 2
+        }
+    ],
+    "answer": {
+        "1": "可回收物",
+        "2": "有害垃圾",
+        "4": "厨余垃圾",
+        "8": "其他垃圾",
+        "16": "其他垃圾"
+    },
+    "other": {
+        "name": "大件垃圾",
+        "icon": "ic_lj16",
+        "en": "LARGEWASTE",
+        "color": "#8A7058",
+        "type": 16,
+        "1": "可回收物",
+        "2": "有害垃圾",
+        "4": "湿垃圾",
+        "8": "干垃圾",
+        "16": "大件垃圾"
+    }
+}
